@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model weights & caches (large, machine-specific)
+models/weights/*.onnx
+models/weights/*.safetensors
+models/weights/*.pt
+models/cache/
+*.ckpt
+
+# Runtime artifacts
+logs/
+renders/
+output/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+config/local.toml
